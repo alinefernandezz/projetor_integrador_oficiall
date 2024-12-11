@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    background-image: url("img/sao-paulo-vira-sede-mundial-para-debate-internacional-sobre-meio-ambiente-seguranca-alimentar-e-habitacao-49c18.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgLogo{
+    width: 10%;    
+}
+
+#btnLogin{
+    margin-right: 3%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger ;
+    font-weight: 600;
+    color: #228B22;
+    border: #228B22 solid 1px;
+    width: 7%;
+    text-align: center;
+    border-radius: 4px;
+    text-justify: auto;
+}
+
+#tituloPag{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    color: #fff;
+}
+
+#SecNavegacao{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #228B22;
+}
+
+#SecNavegacao a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+#secConteudoMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-top: 5%;
+    border: 1px #bbbbbb solid;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 3%;
+}
+
+.cofigNoticias{
+    border-radius: 5px;
+    margin-bottom: 5%;
+    width: 90%;
+    box-shadow: 1px 5px 15px #000000;
+}
+
+#noticiaG1{
+    height: 60vh;
+    background-image: url("https://s2-g1.glbimg.com/U-K5qYj8aJNMVGEa_XFxJpwIOzY=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/v/n/prRtOySAWRv73XWwzJJA/sp2-20240909-1722-frame-26712.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#noticiaG1 h1{
+    margin-top: 5%;
+    margin-left: 3%;
+    color: #fff;
+    font-size: 250%;
+
+}
+
+#noticiaG1 h2{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    color: #fff;
+
+}
+
+#noticiaBBC{
+    height: 60vh;
+    background-image: url("https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/441d/live/d5c44370-745b-11ef-9a7a-615c3d94793b.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#noticiaBBC h1{
+    margin-top: 5%;
+    margin-left: 3%;
+    color: #4d4d4d;
+    font-size: 250%;
+
+}
+
+#noticiaBBC h2{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 35%;
+    text-align: justify;
+    color: #4d4d4d;
+
+}
+
+#SecNavegacao2{
+    height: 5vh;
+    width: 100%;
+    background-color: #228B22;
+}
+
+footer{
+    display: flex;
+    height: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#imgLogo2{
+    width: 30%;    
+}
+
+footer p {
+    color: #7a7a7a;
+}
+
